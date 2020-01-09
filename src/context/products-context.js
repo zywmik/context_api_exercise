@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const ProductsContext = React.createContext({
     products: [],
-    toggleFav: () => {}
+    toggleFav: (id) => {}
 });
 
 export default props => {
