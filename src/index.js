@@ -9,7 +9,7 @@ import configureProductsStore from './store/products-store';
 configureProductsStore();
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/context_api_exercise">
       <App />
     </BrowserRouter>,
   document.getElementById('root')
