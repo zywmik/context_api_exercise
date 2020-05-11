@@ -18,7 +18,7 @@ const ProductItem = (props) => {
                 <h2 className={props.isFav ? "is-fav" : ""}>{props.title}</h2>
                 <p>{props.description}</p>
                 <button className={!props.isFav ? "button-outline" : ""} onClick={toggleFavHandler}>
-                    {props.isFav ? "Un-Favorite" : "Favorite"}x
+                    {props.isFav ? "Un-Favorite" : "Favorite"}
                 </button>
             </div>
         </Card>
