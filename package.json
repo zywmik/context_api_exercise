@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "rm -rf build && npm run build && cd build && git init && git add . && git commit -m \"Initial Commit \" && git remote add origin https://github.com/zywmik/context_api_exercise.git && git push --force origin master:gh-pages"
   },
   "eslintConfig": {
     "extends": "react-app"
